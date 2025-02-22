@@ -64,7 +64,7 @@ const AboutPage = () => {
                 {data?.designation}
               </motion.p>
               <motion.p
-                className="text-lg text-gray-300 leading-relaxed text-justify"
+                className="text-sm text-gray-300 leading-relaxed text-justify"
                 initial={{ opacity: 0, x: -100 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 1, delay: 0.6 }}
