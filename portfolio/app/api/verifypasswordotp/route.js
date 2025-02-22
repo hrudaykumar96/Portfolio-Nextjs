@@ -3,8 +3,9 @@ import { NextResponse } from "next/server";
 import DbConnection from "@/app/utils/config/DbConnection";
 
 export async function POST(req) {
-    DbConnection();
+
   try {
+    DbConnection();
     const { email, otp } = await req.json();
     const user = await User.findOne({ email });
 
