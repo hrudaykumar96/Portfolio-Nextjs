@@ -26,7 +26,7 @@ const poppins = Poppins({
 export const metadata = {
   title: "Personal Portfolio",
   description: "Welcome to my personal portfolio where I showcase my skills and projects.",
-  keywords: "web development, portfolio, Next.js, frontend, backend, developer, fullstack",
+  keywords: "web developer, personal portfolio, developer portfolio, Hruday Kumar Portfolio, React developer, Next.js developer, MERN stack developer, frontend developer, backend developer, JavaScript developer, Python developer, Django developer, Node.js developer, Hruday Kumar, React web developer, full-stack developer portfolio",
   author: "Hruday Kumar"
 };
 

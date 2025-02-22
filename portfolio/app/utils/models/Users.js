@@ -165,8 +165,18 @@ const UsersSchema = new mongoose.Schema({
     password:{
         type: String,
         required: false
-    }
-});
+    },
+    otp:{ 
+        type: String,
+        default: null,
+        required: false
+    },
+    otpExpiration: { 
+        type: Date, 
+        default: null, 
+        required: false 
+    },
+},{ timestamps: true});
 
 
 const User = mongoose.models.User || mongoose.model("User", UsersSchema);
