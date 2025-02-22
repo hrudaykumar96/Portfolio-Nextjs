@@ -73,7 +73,7 @@ const AboutPage = () => {
               </motion.p>
               <Link href={data?.resumeURL || ''} target="_blank">
       <motion.div
-        className="py-3 px-8 bg-teal-500 text-white font-semibold rounded-lg hover:bg-teal-600 transition-all duration-300 mt-6"
+        className="py-3 px-5 bg-teal-500 text-white font-semibold rounded-lg hover:bg-teal-600 transition-all duration-300 mt-6"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 1 }}
@@ -172,7 +172,7 @@ const AboutPage = () => {
               <FaMapMarkerAlt className="text-4xl text-teal-500" />
             </div>
             <h4 className="text-xl text-teal-300">Location</h4>
-            <p className="text-lg text-white">{data?.location}</p>
+            <p className="text-lg text-white">{data?.address}</p>
           </motion.div>
         </div>
       </motion.section>
