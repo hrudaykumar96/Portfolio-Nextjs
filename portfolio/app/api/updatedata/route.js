@@ -9,9 +9,10 @@ import deleteUploadFile from "@/app/utils/cloudinary/deleteCloudinary";
 import uploadToCloudinary from "@/app/utils/cloudinary/uploadtoCloudinary";
 
 export async function POST(req) {
-  DbConnection();
+
 
   try {
+    DbConnection();
     const formData = await req.formData();
     const cookieStore = await cookies();
     const token = cookieStore.get("token")?.value;
