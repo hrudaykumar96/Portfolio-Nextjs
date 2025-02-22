@@ -5,8 +5,9 @@ import jwt from "jsonwebtoken";
 import { cookies } from "next/headers";
 
 export async function POST(req) {
-    DbConnection();
+
   try {
+    DbConnection();
     const { email, otp } = await req.json();
     const user = await User.findOne({ email });
 
