@@ -179,7 +179,7 @@ const ResetPasswordForm = () => {
                   <input
                     id="otp"
                     name="otp"
-                    type="text"
+                    type="password"
                     className={`w-full p-4 rounded-lg bg-gray-700 text-white focus:ring-teal-500 focus:border-teal-500 
                       ${formik.touched.otp && formik.errors.otp ? "border-2 border-red-500" : "border border-transparent"}`}
                     placeholder="Enter OTP"
