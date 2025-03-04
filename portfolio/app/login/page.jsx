@@ -5,6 +5,7 @@ export const metadata = {
   description: "Access your account by logging in to your personal dashboard. Enter your credentials to proceed.",
   keywords: "login, authentication, user account, login form, member area", 
   author: "Hruday Kumar",
+  robots: "index, follow",
 }
 
 

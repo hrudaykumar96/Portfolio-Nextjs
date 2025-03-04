@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://portfolio-nextjs-delta-orcin.vercel.app/sitemap.xml

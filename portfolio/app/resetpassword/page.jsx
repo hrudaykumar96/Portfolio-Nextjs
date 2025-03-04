@@ -5,6 +5,7 @@ export const metadata = {
   description: "Reset your password to regain access to your account. Enter your email address and follow the instructions sent to you.",
   keywords: "reset password, account recovery, forgot password, user account, password reset form",
   author: "Hruday Kumar", 
+  robots: "index, follow",
 };
 
 const page = () => {
